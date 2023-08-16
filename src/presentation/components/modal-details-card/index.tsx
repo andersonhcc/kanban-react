@@ -16,10 +16,12 @@ export const ModalDetailsCard = ({ closeModal, data }: Props) => {
         </header>
 
         <div className='detailsTask'>
-          <p><h3>Descricao: </h3>{data.descricao}</p>
-          <p><h3>Atribuido por: </h3>{data.atribuidoPor}</p>
-          <p><h3>Dicas: </h3>{data.dicasResolucao}</p>
-          <p><h3>Usuário atribuido: </h3>{data.user.name}</p>
+          <h5>Descricao:</h5> <p>{data.descricao}</p>
+          <h5>Atribuido por:</h5> <p>{data.atribuidoPor}</p>
+          <h5>Dicas: </h5> <p>{data.dicasResolucao}</p>
+          <h5>Usuário atribuido: </h5><span className='box-user'><img src={data.user.avatarUser} alt="" /><p>{data.user.name}</p></span>
+ 
+
         </div>
       </div>
     </Container>

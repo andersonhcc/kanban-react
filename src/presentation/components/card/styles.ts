@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 
 type PropsContainer = {
-  isDragging: any;
   priority: string;
+  isDragging: boolean;
 }
 
 
@@ -56,14 +56,12 @@ export const Container = styled.div<PropsContainer>`
     line-height: 20px;
     margin-left: 5px;
   }
-  ${props => props.isDragging && css`
-    border: 2px dashed rgba(0, 0, 0, 0.2);
+  ${({isDragging}) => isDragging && css`
+    border: 1px dashed red;
     padding-top: 31px;
     border-radius: 0;
     background: transparent;
-    box-shadow: none;
     cursor: grabbing;
-
     p, img, header {
       opacity: 0;
     }

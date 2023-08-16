@@ -102,7 +102,7 @@
             },
             "dataExecucao": "18/08/2023",
             "localExecucao": "Ambiente de desenvolvimento",
-            "prioridade": "alta",
+            "prioridade": "crítica",
             "descricao": "Nesta tarefa, você deve implementar a funcionalidade de notificações no sistema, permitindo que os usuários recebam alertas sobre eventos importantes. Isso inclui a criação de interfaces de usuário para gerenciar preferências de notificação, a integração com serviços de envio de notificações e a exibição de alertas no aplicativo. Certifique-se de seguir as melhores práticas de design de interface e otimizar o desempenho da exibição de notificações. Esta tarefa foi atribuída pelo Gerente de Produto para aprimorar a experiência do usuário.",
             "atribuidoPor": "Gerente de Produto",
             "dicasResolucao": "Ao implementar as notificações, considere a privacidade do usuário e forneça opções claras para controlar o recebimento de alertas. Mantenha a consistência visual com o restante do aplicativo."
@@ -117,7 +117,7 @@
             },
             "dataExecucao": "19/08/2023",
             "localExecucao": "Ambiente de testes",
-            "prioridade": "alta",
+            "prioridade": "crítica",
             "descricao": "Nesta tarefa, é fundamental analisar a arquitetura do sistema e implementar melhorias para garantir sua escalabilidade. Avalie os componentes do sistema que podem se tornar gargalos à medida que o número de usuários aumenta. Considere a introdução de balanceamento de carga, uso de caches distribuídos e otimização de consultas de banco de dados. Esta tarefa foi atribuída pela Equipe de Desenvolvimento para preparar o sistema para futuras demandas.",
             "atribuidoPor": "Equipe de Desenvolvimento",
             "dicasResolucao": "Use ferramentas de monitoramento de desempenho para identificar pontos fracos na escalabilidade. Introduza soluções como balanceadores de carga para distribuir o tráfego de maneira uniforme."
@@ -147,7 +147,7 @@
             },
             "dataExecucao": "18/08/2023",
             "localExecucao": "Ambiente de desenvolvimento",
-            "prioridade": "alta",
+            "prioridade": "crítica",
             "descricao": "Nesta tarefa, você deve implementar a funcionalidade de notificações no sistema, permitindo que os usuários recebam alertas sobre eventos importantes. Isso inclui a criação de interfaces de usuário para gerenciar preferências de notificação, a integração com serviços de envio de notificações e a exibição de alertas no aplicativo. Certifique-se de seguir as melhores práticas de design de interface e otimizar o desempenho da exibição de notificações. Esta tarefa foi atribuída pelo Gerente de Produto para aprimorar a experiência do usuário.",
             "atribuidoPor": "Gerente de Produto",
             "dicasResolucao": "Ao implementar as notificações, considere a privacidade do usuário e forneça opções claras para controlar o recebimento de alertas. Mantenha a consistência visual com o restante do aplicativo."
@@ -162,7 +162,7 @@
             },
             "dataExecucao": "19/08/2023",
             "localExecucao": "Ambiente de testes",
-            "prioridade": "alta",
+            "prioridade": "crítica",
             "descricao": "Nesta tarefa, é fundamental analisar a arquitetura do sistema e implementar melhorias para garantir sua escalabilidade. Avalie os componentes do sistema que podem se tornar gargalos à medida que o número de usuários aumenta. Considere a introdução de balanceamento de carga, uso de caches distribuídos e otimização de consultas de banco de dados. Esta tarefa foi atribuída pela Equipe de Desenvolvimento para preparar o sistema para futuras demandas.",
             "atribuidoPor": "Equipe de Desenvolvimento",
             "dicasResolucao": "Use ferramentas de monitoramento de desempenho para identificar pontos fracos na escalabilidade. Introduza soluções como balanceadores de carga para distribuir o tráfego de maneira uniforme."

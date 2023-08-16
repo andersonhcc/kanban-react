@@ -15,6 +15,20 @@ div{
   }
 }
 
+img {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+
+.box-user{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 button {
   background: none;
   border: none;
@@ -45,13 +59,11 @@ header p{
     font-family: "Poppins";
     color: #182A4E;
     font-size: 12px;
-    margin-left: 5px;
     margin-bottom: 10px;
 
     @media (max-width: 768px) {
       font-size: 9px;
       max-width: 50%;
-
   }
 
 }
