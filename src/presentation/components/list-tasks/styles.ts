@@ -28,6 +28,13 @@ export const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
   }
+
+  @media (max-width: 768px) {
+    flex: 0;
+    margin-top: 15px;
+    margin-right: 20px;
+
+  }
 `;
 
 export const Input = styled.input`
@@ -43,5 +50,10 @@ export const Input = styled.input`
   &:focus {
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+
+  @media (max-width: 768px) {
+    width: 95%;
   }
 `;

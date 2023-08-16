@@ -5,4 +5,8 @@ export const Container = styled.div`
   padding: 30px 0;
   min-height: calc(100% - 80px);
   justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `

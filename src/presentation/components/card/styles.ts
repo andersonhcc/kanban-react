@@ -10,6 +10,7 @@ type PropsLabel = {
   color: string;
 }
 
+
 export const Container = styled.div<PropsContainer>`
   position: relative;
   max-width: 300px;
@@ -78,13 +79,28 @@ export const Label = styled.span<PropsLabel>`
   background-color: ${({color}) => color};
 `;
 
-export const stylesModal = {
+
+
+export const stylesModalWeb = {
   content: {
       top: '50%',
       left: '50%',
       right: 'auto',
-      maxWidth: "50%",
-      minWidth:"50%",
+      maxWidth:"50%",
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+      backgroundColor: '#fff',
+      borderRadius: 20,
+  },
+};
+
+export const stylesModalMobile = {
+  content: {
+      top: '50%',
+      left: '50%',
+      right: 'auto',
+      maxWidth:"90%",
       bottom: 'auto',
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',

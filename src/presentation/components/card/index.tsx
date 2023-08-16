@@ -1,7 +1,8 @@
-import { Container, Label, stylesModal } from './styles'
+import { Container, Label, stylesModalWeb, stylesModalMobile } from './styles'
 import Modal from 'react-modal';
 import { ModalDetailsCard } from '../modal-details-card';
 import { CardModel } from '../../../domain/models';
+import { useMediaQuery } from "react-responsive";
 
 type Props = {
   closeModal: () => void;
@@ -13,7 +14,7 @@ type Props = {
 }
 
 export const Card = ({ data, isDragging, refDrop, visibleModal, closeModal, openModal }: Props) => {
-
+  const isMobile = useMediaQuery({ maxWidth: 480 });
   return (
     <>
       <Container onClick={openModal} ref={refDrop} isDragging={isDragging} priority={data.colorLabel}>
@@ -33,7 +34,7 @@ export const Card = ({ data, isDragging, refDrop, visibleModal, closeModal, open
 
       <Modal
         isOpen={visibleModal}
-        style={stylesModal}
+        style={isMobile ? stylesModalMobile : stylesModalWeb}
         ariaHideApp={false}
       >
         <ModalDetailsCard closeModal={closeModal} data={data} />

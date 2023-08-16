@@ -8,6 +8,11 @@ div{
     min-width: 400px;
     min-height: 600px;
     max-height: 700px;
+
+   @media (max-width: 768px) {
+      min-width: 200px;
+      min-height: 400px;
+  }
 }
 
 button {
@@ -30,6 +35,10 @@ header p{
     font-size: 17px;
     margin-left: 5px;
     font-weight: 600;
+
+    @media (max-width: 768px) {
+      font-size: 13px;
+  }
 }
 
 .detailsTask p{
@@ -39,10 +48,19 @@ header p{
     margin-left: 5px;
     margin-bottom: 10px;
 
+    @media (max-width: 768px) {
+      font-size: 9px;
+      max-width: 50%;
+
+  }
+
 }
 
 .detailsTask{
     padding-top: 20px;
 }
 
+@media (max-width: 768px) {
+  height: 300px;
+  }
 `;
