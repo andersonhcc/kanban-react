@@ -1,0 +1,9 @@
+node_modules
+server
+.vscode
+coverage
+public
+dist
+*.css
+*.scss
+*.json
